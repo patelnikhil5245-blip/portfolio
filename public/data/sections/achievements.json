@@ -1,0 +1,460 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Awards",
+                "title_short_nav": "Achievements",
+                "title_long_prefix": "Here are my",
+                "title_long": "Career {{Achievements}}"
+            },
+            "es": {
+                "title_short": "Logros",
+                "title_short_nav": "Logros",
+                "title_long_prefix": "Aquí están mis",
+                "title_long": "{{Logros}} Profesionales"
+            },
+            "fr": {
+                "title_short": "Réalis",
+                "title_short_nav": "Réalisations",
+                "title_long_prefix": "Voici",
+                "title_long": "Mes {{Réalisations}}"
+            },
+            "ko": {
+                "title_short": "경력 성과",
+                "title_short_nav": "경력 성과",
+                "title_long_prefix": "다음은",
+                "title_long": "{{경력 성과}}입니다"
+            }
+        }
+    },
+    "articles": [
+        {
+            "id": 0,
+            "component": "ArticleFacts",
+            "locales": {},
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": null,
+                    "faIcon": "fa-solid fa-diagram-project",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "5+",
+                            "text": "Projects Completed"
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "img": null,
+                    "faIcon": "fa-solid fa-code",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "150+",
+                            "text": "DSA Problems Solved"
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "img": null,
+                    "faIcon": "fa-solid fa-certificate",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "10",
+                            "text": "Certifications Earned"
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "img": null,
+                    "faIcon": "fa-solid fa-trophy",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "1+",
+                            "text": "Hackathons Participated"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "component": "ArticleCards",
+            "locales": {
+                "en": {
+                    "title": "Certifications"
+                },
+                "es": {
+                    "title": "Certificaciones"
+                },
+                "fr": {
+                    "title": "Certifications"
+                },
+                "ko": {
+                    "title": "인증서"
+                }
+            },
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "desc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": "",
+                    "faIcon": "fa-brands fa-free-code-camp",
+                    "faIconColors": {
+                        "bg": "#0A0A0A",
+                        "fill": "#FFF"
+                    },
+                    "date": {
+                        "year": 2022,
+                        "month": 1
+                    },
+                    "link": {
+                        "href": "https://www.freecodecamp.org/",
+                        "tooltipString": "open_website"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "JavaScript ES6 — freeCodeCamp",
+                            "text": "Completed a freeCodeCamp certification focused on modern JavaScript and ES6 features."
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "img": "",
+                    "faIcon": "fa-solid fa-robot",
+                    "faIconColors": {
+                        "bg": "#7A3EFE",
+                        "fill": "#FFF"
+                    },
+                    "date": {
+                        "year": 2025,
+                        "month": 1
+                    },
+                    "link": {
+                        "href": "",
+                        "tooltipString": "open_website"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Tata GenAI Data Analytics",
+                            "text": "Earned a Tata GenAI Data Analytics certification in 2025."
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "img": "",
+                    "faIcon": "fa-brands fa-java",
+                    "faIconColors": {
+                        "bg": "#007396",
+                        "fill": "#FFF"
+                    },
+                    "date": {
+                        "year": 2025,
+                        "month": 1
+                    },
+                    "link": {
+                        "href": "",
+                        "tooltipString": "open_website"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Oracle Java Explorer",
+                            "text": "Completed the Oracle Java Explorer certification in 2025."
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "img": "",
+                    "faIcon": "fa-brands fa-udemy",
+                    "faIconColors": {
+                        "bg": "#EC5252",
+                        "fill": "#FFF"
+                    },
+                    "date": {
+                        "year": 2025,
+                        "month": 1
+                    },
+                    "link": {
+                        "href": "https://www.udemy.com/",
+                        "tooltipString": "open_website"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "AI Engineer — Udemy",
+                            "text": "Earned an AI Engineer certification through Udemy in 2025."
+                        }
+                    }
+                },
+                {
+                    "id": 5,
+                    "img": "",
+                    "faIcon": "fa-solid fa-certificate",
+                    "faIconColors": {
+                        "bg": "#E4B600",
+                        "fill": "#111"
+                    },
+                    "date": {
+                        "year": 2025,
+                        "month": 1
+                    },
+                    "link": {
+                        "href": "",
+                        "tooltipString": "open_website"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Ramasto",
+                            "text": "Completed Ramasto certification in 2025."
+                        }
+                    }
+                },
+                {
+                    "id": 6,
+                    "img": "",
+                    "faIcon": "fa-solid fa-code",
+                    "faIconColors": {
+                        "bg": "#1A1A1A",
+                        "fill": "#FFF"
+                    },
+                    "date": {
+                        "year": 2025,
+                        "month": 1
+                    },
+                    "link": {
+                        "href": "",
+                        "tooltipString": "open_website"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "DSA — CodeChef",
+                            "text": "Completed a DSA certification through CodeChef."
+                        }
+                    }
+                },
+                {
+                    "id": 7,
+                    "img": "",
+                    "faIcon": "fa-brands fa-python",
+                    "faIconColors": {
+                        "bg": "#306998",
+                        "fill": "#FFF"
+                    },
+                    "date": {
+                        "year": 2025,
+                        "month": 1
+                    },
+                    "link": {
+                        "href": "",
+                        "tooltipString": "open_website"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Python — Infosys",
+                            "text": "Earned a Python certification through Infosys."
+                        }
+                    }
+                },
+                {
+                    "id": 8,
+                    "img": "",
+                    "faIcon": "fa-solid fa-satellite",
+                    "faIconColors": {
+                        "bg": "#0B3D91",
+                        "fill": "#FFF"
+                    },
+                    "date": {
+                        "year": 2025,
+                        "month": 6
+                    },
+                    "link": {
+                        "href": "",
+                        "tooltipString": "open_website"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "ISRO AI/ML Course",
+                            "text": "Completed an AI/ML training course conducted by ISRO, covering applied machine learning concepts."
+                        }
+                    }
+                },
+                {
+                    "id": 9,
+                    "img": "",
+                    "faIcon": "fa-solid fa-network-wired",
+                    "faIconColors": {
+                        "bg": "#1BA0D7",
+                        "fill": "#FFF"
+                    },
+                    "date": {
+                        "year": 2025,
+                        "month": 3
+                    },
+                    "link": {
+                        "href": "",
+                        "tooltipString": "open_website"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Cisco Certification",
+                            "text": "Completed a Cisco networking/technology certification program."
+                        }
+                    }
+                },
+                {
+                    "id": 10,
+                    "img": "",
+                    "faIcon": "fa-solid fa-hourglass-half",
+                    "faIconColors": {
+                        "bg": "#555",
+                        "fill": "#FFF"
+                    },
+                    "date": {
+                        "year": 2026,
+                        "month": 1
+                    },
+                    "link": {
+                        "href": "",
+                        "tooltipString": "open_website"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "NPTEL / Coursera (In Progress)",
+                            "text": "Currently pursuing an NPTEL/Coursera specialization to deepen expertise in AI and full-stack development."
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "component": "ArticleThread",
+            "locales": {
+                "en": {
+                    "title": "Awards"
+                },
+                "es": {
+                    "title": "Premios"
+                },
+                "fr": {
+                    "title": "Récompenses"
+                },
+                "ko": {
+                    "title": "수상 내역"
+                }
+            },
+            "settings": {
+                "max_rows_collapse_threshold": 4,
+                "order_items_by": "date",
+                "order_items_sort": "desc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "date": {
+                        "year": 2025,
+                        "month": 8
+                    },
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "",
+                                "tooltipString": "open_website",
+                                "faIcon": "fa-solid fa-link"
+                            }
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "DTU Hackathon Certificate",
+                            "province": "Delhi",
+                            "country": "India",
+                            "institution": "DTU",
+                            "text": "Recognized for successful participation in a DTU hackathon focused on web development and rapid prototyping."
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "date": {
+                        "year": 2025,
+                        "month": 5
+                    },
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "https://leetcode.com/u/Vibenik01/",
+                                "tooltipString": "open_website",
+                                "faIcon": "fa-solid fa-code"
+                            }
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "DSA Problem Solving Milestone",
+                            "province": "",
+                            "country": "India",
+                            "institution": "LeetCode / CodeChef",
+                            "text": "Solved 150+ Data Structures & Algorithms problems across LeetCode and CodeChef, strengthening core problem-solving skills."
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "date": {
+                        "year": 2025,
+                        "month": 12
+                    },
+                    "preview": {
+                        "links": [],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "5+ Projects Shipped",
+                            "province": "",
+                            "country": "India",
+                            "institution": "Personal / Academic",
+                            "text": "Built and shipped 5+ full-stack and frontend projects, including ShopEase, CareSync and TaskFlow Management."
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

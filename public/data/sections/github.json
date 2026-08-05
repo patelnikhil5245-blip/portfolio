@@ -1,0 +1,24 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "GitHub",
+                "title_short_nav": "GitHub",
+                "title_long_prefix": "Check out my",
+                "title_long": "{{GitHub}} Activity"
+            }
+        }
+    },
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleGithubStats",
+            "locales": {},
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "items": []
+        }
+    ]
+}

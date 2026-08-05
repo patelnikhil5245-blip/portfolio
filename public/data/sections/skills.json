@@ -1,0 +1,803 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Skills",
+                "title_short_nav": "Skills",
+                "title_long_prefix": "Explore",
+                "title_long": "My {{Skill Set}}"
+            },
+            "es": {
+                "title_short": "Habilidades",
+                "title_short_nav": "Habilidades",
+                "title_long_prefix": "Explora",
+                "title_long": "Mis {{Habilidades}}"
+            },
+            "fr": {
+                "title_short": "Capacités",
+                "title_short_nav": "Capacités",
+                "title_long_prefix": "Explorez",
+                "title_long": "Mes {{Compétences}}"
+            },
+            "ko": {
+                "title_short": "스킬",
+                "title_short_nav": "스킬",
+                "title_long_prefix": "이것은 내",
+                "title_long": "{{스킬}}입니다"
+            }
+        }
+    },
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleCards",
+            "locales": {
+                "en": {
+                    "title": "Core Skill Areas"
+                }
+            },
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": "",
+                    "faIcon": "fa-solid fa-code",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": "#4F8DFD"
+                    },
+                    "date": {
+                        "year": 2024,
+                        "month": 9
+                    },
+                    "link": {
+                        "href": "",
+                        "tooltipString": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Programming Languages",
+                            "text": "Java, C++, C, Python, JavaScript and SQL for problem solving and application development."
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "img": "",
+                    "faIcon": "fa-brands fa-react",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": "#61DAFB"
+                    },
+                    "date": {
+                        "year": 2024,
+                        "month": 9
+                    },
+                    "link": {
+                        "href": "",
+                        "tooltipString": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Frontend Development",
+                            "text": "HTML, CSS, JavaScript, React.js, Next.js and Tailwind CSS for building modern, responsive UIs."
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "img": "",
+                    "faIcon": "fa-solid fa-server",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": "#6DB33F"
+                    },
+                    "date": {
+                        "year": 2024,
+                        "month": 9
+                    },
+                    "link": {
+                        "href": "",
+                        "tooltipString": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Backend Development",
+                            "text": "Java Spring Boot, Node.js, Express.js and REST APIs for scalable server-side systems."
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "img": "",
+                    "faIcon": "fa-solid fa-database",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": "#f0db4f"
+                    },
+                    "date": {
+                        "year": 2024,
+                        "month": 9
+                    },
+                    "link": {
+                        "href": "",
+                        "tooltipString": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Databases",
+                            "text": "MySQL, PostgreSQL and MongoDB for relational and NoSQL data storage."
+                        }
+                    }
+                },
+                {
+                    "id": 5,
+                    "img": "",
+                    "faIcon": "fa-solid fa-brain",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": "#A66CFF"
+                    },
+                    "date": {
+                        "year": 2024,
+                        "month": 9
+                    },
+                    "link": {
+                        "href": "",
+                        "tooltipString": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "AI / Data Science",
+                            "text": "NumPy, Pandas, Machine Learning, Deep Learning, NLP, Generative AI and LLMs."
+                        }
+                    }
+                },
+                {
+                    "id": 6,
+                    "img": "",
+                    "faIcon": "fa-solid fa-toolbox",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": "#111"
+                    },
+                    "date": {
+                        "year": 2024,
+                        "month": 9
+                    },
+                    "link": {
+                        "href": "",
+                        "tooltipString": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Tools & Platforms",
+                            "text": "Git, GitHub, Linux, VS Code and Docker for development and deployment workflows."
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "component": "ArticleSkills",
+            "locales": {
+                "en": {
+                    "title": "Proficiency"
+                },
+                "ko": {
+                    "title": "숙련도"
+                }
+            },
+            "settings": {
+                "max_items_per_row": 3,
+                "max_rows_collapse_threshold": 6,
+                "order_items_by": "percentage",
+                "order_items_sort": "desc",
+                "round_icons": false
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "faIcon": "fa-brands fa-java",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": "#EA2D2E"
+                    },
+                    "percentage": 90,
+                    "locales": {
+                        "en": {
+                            "title": "Java",
+                            "text": "Core language for backend and full-stack development."
+                        }
+                    },
+                    "img": "",
+                    "date": {
+                        "year": 2025,
+                        "month": 1
+                    },
+                    "link": {
+                        "href": "",
+                        "tooltipString": ""
+                    }
+                },
+                {
+                    "id": 2,
+                    "faIcon": "fa-solid fa-leaf",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": "#6DB33F"
+                    },
+                    "percentage": 88,
+                    "locales": {
+                        "en": {
+                            "title": "Spring Boot",
+                            "text": "Building REST APIs and scalable backend services."
+                        }
+                    },
+                    "img": "",
+                    "date": {
+                        "year": 2025,
+                        "month": 1
+                    },
+                    "link": {
+                        "href": "",
+                        "tooltipString": ""
+                    }
+                },
+                {
+                    "id": 3,
+                    "faIcon": "fa-brands fa-react",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": "#61DAFB"
+                    },
+                    "percentage": 90,
+                    "locales": {
+                        "en": {
+                            "title": "React.js",
+                            "text": "Component-driven, responsive user interfaces."
+                        }
+                    },
+                    "img": "",
+                    "date": {
+                        "year": 2025,
+                        "month": 1
+                    },
+                    "link": {
+                        "href": "",
+                        "tooltipString": ""
+                    }
+                },
+                {
+                    "id": 4,
+                    "faIcon": "fa-brands fa-python",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": "#306998"
+                    },
+                    "percentage": 85,
+                    "locales": {
+                        "en": {
+                            "title": "Python",
+                            "text": "Scripting, ML pipelines and data analysis."
+                        }
+                    },
+                    "img": "",
+                    "date": {
+                        "year": 2025,
+                        "month": 1
+                    },
+                    "link": {
+                        "href": "",
+                        "tooltipString": ""
+                    }
+                },
+                {
+                    "id": 5,
+                    "faIcon": "fa-solid fa-database",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": "#4479A1"
+                    },
+                    "percentage": 82,
+                    "locales": {
+                        "en": {
+                            "title": "SQL / MySQL",
+                            "text": "Schema design and query optimization."
+                        }
+                    },
+                    "img": "",
+                    "date": {
+                        "year": 2025,
+                        "month": 1
+                    },
+                    "link": {
+                        "href": "",
+                        "tooltipString": ""
+                    }
+                },
+                {
+                    "id": 6,
+                    "faIcon": "fa-solid fa-plus-minus",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": "#00599C"
+                    },
+                    "percentage": 80,
+                    "locales": {
+                        "en": {
+                            "title": "C++ / C",
+                            "text": "Data structures, algorithms and system programming."
+                        }
+                    },
+                    "img": "",
+                    "date": {
+                        "year": 2025,
+                        "month": 1
+                    },
+                    "link": {
+                        "href": "",
+                        "tooltipString": ""
+                    }
+                },
+                {
+                    "id": 7,
+                    "faIcon": "fa-solid fa-robot",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": "#A66CFF"
+                    },
+                    "percentage": 75,
+                    "locales": {
+                        "en": {
+                            "title": "Machine Learning",
+                            "text": "Model building with NumPy, Pandas and scikit-learn."
+                        }
+                    },
+                    "img": "",
+                    "date": {
+                        "year": 2025,
+                        "month": 1
+                    },
+                    "link": {
+                        "href": "",
+                        "tooltipString": ""
+                    }
+                },
+                {
+                    "id": 8,
+                    "faIcon": "fa-solid fa-leaf",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": "#38BDF8"
+                    },
+                    "percentage": 78,
+                    "locales": {
+                        "en": {
+                            "title": "Tailwind CSS",
+                            "text": "Utility-first styling for fast, consistent UI."
+                        }
+                    },
+                    "img": "",
+                    "date": {
+                        "year": 2025,
+                        "month": 1
+                    },
+                    "link": {
+                        "href": "",
+                        "tooltipString": ""
+                    }
+                },
+                {
+                    "id": 9,
+                    "faIcon": "fa-solid fa-diagram-project",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": "#47A248"
+                    },
+                    "percentage": 76,
+                    "locales": {
+                        "en": {
+                            "title": "MongoDB / PostgreSQL",
+                            "text": "NoSQL and relational data modeling."
+                        }
+                    },
+                    "img": "",
+                    "date": {
+                        "year": 2025,
+                        "month": 1
+                    },
+                    "link": {
+                        "href": "",
+                        "tooltipString": ""
+                    }
+                },
+                {
+                    "id": 10,
+                    "faIcon": "fa-brands fa-node-js",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": "#3C873A"
+                    },
+                    "percentage": 72,
+                    "locales": {
+                        "en": {
+                            "title": "Node.js / Express.js",
+                            "text": "Lightweight REST services and APIs."
+                        }
+                    },
+                    "img": "",
+                    "date": {
+                        "year": 2025,
+                        "month": 1
+                    },
+                    "link": {
+                        "href": "",
+                        "tooltipString": ""
+                    }
+                },
+                {
+                    "id": 11,
+                    "faIcon": "fa-brands fa-git-alt",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": "#F1502F"
+                    },
+                    "percentage": 85,
+                    "locales": {
+                        "en": {
+                            "title": "Git & GitHub",
+                            "text": "Version control and collaborative workflows."
+                        }
+                    },
+                    "img": "",
+                    "date": {
+                        "year": 2025,
+                        "month": 1
+                    },
+                    "link": {
+                        "href": "",
+                        "tooltipString": ""
+                    }
+                },
+                {
+                    "id": 12,
+                    "faIcon": "fa-brands fa-docker",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": "#2496ED"
+                    },
+                    "percentage": 60,
+                    "locales": {
+                        "en": {
+                            "title": "Docker",
+                            "text": "Containerizing applications for consistent deployment."
+                        }
+                    },
+                    "img": "",
+                    "date": {
+                        "year": 2025,
+                        "month": 1
+                    },
+                    "link": {
+                        "href": "",
+                        "tooltipString": ""
+                    }
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "component": "ArticleSkills",
+            "locales": {
+                "en": {
+                    "title": "Frontend Stack"
+                },
+                "es": {
+                    "title": "Stack de Frontend"
+                },
+                "fr": {
+                    "title": "Stack Frontend"
+                },
+                "zh": {
+                    "title": "前端技术栈"
+                }
+            },
+            "settings": {
+                "max_items_per_row": 3,
+                "max_rows_collapse_threshold": 6,
+                "order_items_by": "percentage",
+                "order_items_sort": "desc",
+                "round_icons": false
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": "",
+                    "faIcon": "fa-brands fa-html5",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": "#E34F26"
+                    },
+                    "date": {
+                        "year": 2018,
+                        "month": 9
+                    },
+                    "percentage": 100,
+                    "locales": {
+                        "en": {
+                            "title": "HTML 5",
+                            "text": "I am proficient in HTML5 for building structured web pages.",
+                            "level": ""
+                        },
+                        "es": {
+                            "text": "Soy competente en HTML5 para construir páginas web estructuradas."
+                        },
+                        "fr": {
+                            "text": "Je suis compétent en HTML5 pour créer des pages web structurées."
+                        },
+                        "ko": {
+                            "text": "구조화된 웹 페이지를 구축하기 위해 HTML5에 능숙합니다."
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "img": "",
+                    "faIcon": "fa-brands fa-css3-alt",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": "#1572B6"
+                    },
+                    "date": {
+                        "year": 2019,
+                        "month": 1
+                    },
+                    "percentage": 65,
+                    "locales": {
+                        "en": {
+                            "title": "CSS 3",
+                            "text": "I can create responsive and visually appealing designs using CSS3.",
+                            "level": ""
+                        },
+                        "es": {
+                            "text": "Puedo crear diseños receptivos y visualmente atractivos utilizando CSS3."
+                        },
+                        "fr": {
+                            "text": "Je peux créer des designs réactifs et visuellement attrayants en utilisant CSS3."
+                        },
+                        "ko": {
+                            "text": "CSS3를 사용하여 반응형이고 시각적으로 매력적인 디자인을 만들 수 있습니다."
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "img": "",
+                    "faIcon": "fa-brands fa-js",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": "#F7DF1E",
+                        "fillLight": "#a69617"
+                    },
+                    "date": {
+                        "year": 2020,
+                        "month": 3
+                    },
+                    "percentage": 90,
+                    "locales": {
+                        "en": {
+                            "title": "JavaScript ES6+",
+                            "text": "Mastered JavaScript ES6+ for dynamic and interactive web applications.",
+                            "level": ""
+                        },
+                        "es": {
+                            "text": "Dominio de JavaScript ES6+ para aplicaciones web dinámicas e interactivas."
+                        },
+                        "fr": {
+                            "text": "Maîtrisé JavaScript ES6+ pour des applications web dynamiques et interactives."
+                        },
+                        "ko": {
+                            "text": "동적이고 대화형 웹 애플리케이션을 위한 JavaScript ES6+를 마스터했습니다."
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "img": "",
+                    "faIcon": "fa-brands fa-react",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": "#61DAFB",
+                        "fillLight": "#317385"
+                    },
+                    "date": {
+                        "year": 2020,
+                        "month": 6
+                    },
+                    "percentage": 95,
+                    "locales": {
+                        "en": {
+                            "title": "React",
+                            "text": "Complete understanding of React for building modern web applications.",
+                            "level": ""
+                        },
+                        "es": {
+                            "text": "Comprensión completa de React para construir aplicaciones web modernas."
+                        },
+                        "fr": {
+                            "text": "Compréhension complète de React pour créer des applications web modernes."
+                        },
+                        "ko": {
+                            "text": "최신 웹 애플리케이션 구축을 위한 React에 대한 완전한 이해."
+                        }
+                    }
+                },
+                {
+                    "id": 5,
+                    "img": "",
+                    "faIcon": "fa-brands fa-vuejs",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": "#4FC08D",
+                        "fillLight": "#2b825b"
+                    },
+                    "date": {
+                        "year": 2023,
+                        "month": 8
+                    },
+                    "percentage": 40,
+                    "locales": {
+                        "en": {
+                            "title": "Vue.js",
+                            "text": "Good understanding of Vue.js for building interactive user interfaces.",
+                            "level": ""
+                        },
+                        "es": {
+                            "text": "Buena comprensión de Vue.js para construir interfaces de usuario interactivas."
+                        },
+                        "fr": {
+                            "text": "Bonne compréhension de Vue.js pour créer des interfaces utilisateur interactives."
+                        },
+                        "ko": {
+                            "text": "대화형 사용자 인터페이스 구축을 위한 Vue.js에 대한 좋은 이해."
+                        }
+                    }
+                },
+                {
+                    "id": 6,
+                    "img": "",
+                    "faIcon": "fa-brands fa-bootstrap",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": "#7952B3"
+                    },
+                    "date": {
+                        "year": 2021,
+                        "month": 2
+                    },
+                    "percentage": 90,
+                    "locales": {
+                        "en": {
+                            "title": "Bootstrap 5+",
+                            "text": "Good understanding of Bootstrap for responsive design.",
+                            "level": ""
+                        },
+                        "es": {
+                            "text": "Buena comprensión de Bootstrap para diseño receptivo."
+                        },
+                        "fr": {
+                            "text": "Bonne compréhension de Bootstrap pour le design réactif."
+                        },
+                        "ko": {
+                            "text": "반응형 디자인을 위한 Bootstrap에 대한 좋은 이해."
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "component": "ArticleSkills",
+            "locales": {
+                "en": {
+                    "title": "Languages"
+                },
+                "es": {
+                    "title": "Idiomas"
+                },
+                "fr": {
+                    "title": "Langues"
+                },
+                "zh": {
+                    "title": "语言"
+                }
+            },
+            "settings": {
+                "max_items_per_row": 1,
+                "max_rows_collapse_threshold": 4,
+                "order_items_by": "id",
+                "order_items_sort": "asc",
+                "round_icons": true
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": "images/flags/en-us.png",
+                    "faIcon": "",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "date": {
+                        "year": null,
+                        "month": null
+                    },
+                    "percentage": null,
+                    "locales": {
+                        "en": {
+                            "title": "English",
+                            "text": "Native speaker with excellent communication and writing skills.",
+                            "level": "Native"
+                        },
+                        "es": {
+                            "title": "Inglés",
+                            "text": "Hablante nativo con excelentes habilidades de comunicación y escritura.",
+                            "level": "Nativo"
+                        },
+                        "fr": {
+                            "title": "Anglais",
+                            "text": "Locuteur natif avec d'excellentes compétences en communication et en rédaction.",
+                            "level": "Natif"
+                        },
+                        "ko": {
+                            "title": "영어",
+                            "text": "탁월한 의사소통 및 작문 능력을 갖춘 원어민.",
+                            "level": "원어민"
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "img": "images/flags/hi.png",
+                    "faIcon": "",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "date": {
+                        "year": null,
+                        "month": null
+                    },
+                    "percentage": null,
+                    "locales": {
+                        "en": {
+                            "title": "Hindi",
+                            "text": "Fluent in Hindi with strong spoken and written communication skills.",
+                            "level": "Fluent"
+                        },
+                        "es": {
+                            "title": "Hindi",
+                            "text": "Fluido en hindi con sólidas habilidades de comunicación oral y escrita.",
+                            "level": "Fluido"
+                        },
+                        "fr": {
+                            "title": "Hindi",
+                            "text": "Fluent en hindi avec de solides compétences en communication orale et écrite.",
+                            "level": "Courant"
+                        },
+                        "ko": {
+                            "title": "힌디어",
+                            "text": "힌디어에 능숙하며 강력한 구사 및 작문 능력을 보유.",
+                            "level": "Fluent"
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}
